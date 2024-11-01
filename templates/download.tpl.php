@@ -1,0 +1,1 @@
+<a href="<?php echo $this->download_uri; ?>" title="<?php echo $this->basename; ?>"><?php echo $this->basename; ?> &raquo; download</a>

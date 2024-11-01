@@ -1,0 +1,1 @@
+<?php $this->get_template('image'); ?>

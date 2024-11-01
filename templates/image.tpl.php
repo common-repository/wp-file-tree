@@ -1,0 +1,1 @@
+<img src="<?php echo $this->uri; ?>" alt="<?php echo $this->basename; ?>" title="<?php echo $this->basename; ?>" />

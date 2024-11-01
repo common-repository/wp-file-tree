@@ -1,0 +1,71 @@
+.wp_file_tree{
+    
+}
+
+.wp_file_tree .clear {
+	clear:both;
+}
+
+.wp_file_tree .frmElement{
+    margin:10px;
+    padding:2px;
+}
+
+.wp_file_tree .elTitle{
+	margin: 0 8px 5px 0;
+	padding: 0;
+	font-size:1.6em;
+	
+}
+
+.wp_file_tree .elInput, .wp_file_tree .elTextarea {
+	border: 1px solid #ccc;
+	background-color:#ebebeb;
+	width: 620px;
+	padding:5px;
+	font-size:1.4em;
+}
+
+
+.wp_file_tree .elTextarea {
+    font-size:1.1em;
+}
+
+/**
+ * Insert dialogue
+ */
+.wp_file_tree #put_background {
+    position: absolute;
+    display: none;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    filter:alpha(opacity=75); /*IE*/
+    -moz-opacity:0.75; /*FF*/
+    opacity:0.75;
+}
+
+.wp_file_tree form input {
+    vertical-align: middle;
+}
+
+.wp_file_tree #put_dialog {
+    z-index:10;
+    display: none;
+    position: absolute;
+    border: 1px solid #888;
+    background-color: #fff;
+    top: 120px;
+    left: 110px;
+    padding: 10px;
+}
+.wp_file_tree #put_dialog div{
+    padding-top: 10px;
+}
+
+.wp_file_tree #buttons {
+	clear: both;
+    text-align: center;
+}

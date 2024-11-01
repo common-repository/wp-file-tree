@@ -1,0 +1,1 @@
+<?php echo wpautop(wptexturize(do_shortcode($this->contents))); ?>
